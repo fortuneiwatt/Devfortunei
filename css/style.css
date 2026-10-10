@@ -171,10 +171,10 @@ section { padding: clamp(3rem, 8vw, 5rem) 0; position: relative; }
 }
 .s1 { --img: url("../images/picsa.jpg"); }
 .s2 { --img: url("../images/picsb.jpg"); }
-.s3 { --img: url("../images/picsc.jpg"); }
-.s4 { --img: url("../images/picsd.jpg"); }
-.s5 { --img: url("../images/picse.jpg"); }
-.s6 { --img: url("../images/picsf.jpg"); }
+.s3 { --img: url("../images/robon.png"); }
+.s4 { --img: url("../images/Screenshot\ 2026-10-10\ 122717.png"); }
+.s5 { --img: url("../images/Screenshot\ 2026-06-22\ 143248.png"); }
+.s6 { --img: url("../images/Screenshot\ 2026-08-05\ 145729.png"); }
 
 /* each slide starts one --t after the previous one; the small lead makes slide 1 visible at once */
 .s1, .s1 .slide-img { animation-delay: calc(0 * var(--t) - var(--lead)); }
