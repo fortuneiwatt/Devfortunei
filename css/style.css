@@ -169,12 +169,12 @@ section { padding: clamp(3rem, 8vw, 5rem) 0; position: relative; }
   background: var(--img, none) center / cover no-repeat, linear-gradient(145deg, #2b2219, #1b1511);
   animation: slide-zoom calc(var(--t) * var(--n)) linear infinite;
 }
-.s1 { --img: url("../images/picsa.jpg"); }
+.s1 { --img: url("../images/Screenshot\ 2026-10-10\ 125311.png"); }
 .s2 { --img: url("../images/picsb.jpg"); }
 .s3 { --img: url("../images/robon.png"); }
 .s4 { --img: url("../images/Screenshot\ 2026-10-10\ 122717.png"); }
 .s5 { --img: url("../images/Screenshot\ 2026-06-22\ 143248.png"); }
-.s6 { --img: url("../images/Screenshot\ 2026-08-05\ 145729.png"); }
+.s6 { --img: url("../images/picsd.jpg"); }
 
 /* each slide starts one --t after the previous one; the small lead makes slide 1 visible at once */
 .s1, .s1 .slide-img { animation-delay: calc(0 * var(--t) - var(--lead)); }
