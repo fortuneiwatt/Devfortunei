@@ -1,252 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>DEVFORTUNE | Freelance Fullstack Developer and Cybersecurity Specialist</title>
-  <meta name="description" content="Fortune (DEVFORTUNE) builds fast, secure websites and web apps for businesses, churches, NGOs and startups. Fullstack development with a cybersecurity background.">
-  <link rel="stylesheet" href="css/style.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Fortune | Software Engineer & Full-Stack Developer</title>
+<meta name="description" content="Fortune is a software engineer based in Uyo, Nigeria, building useful digital products through full-stack development, software engineering, AI, and cybersecurity-aware development.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,700;0,9..40,800;1,9..40,700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-  <a class="skip" href="#main">Skip to main content</a>
+<header><div class="wrap bar">
+<a class="logo" href="#home">Fortune.</a>
+<span class="avail"><i class="dot"></i><span class="t">Open to remote work</span></span>
+<nav class="top" id="nav"><a href="#work">Work</a><a href="#about">About</a><a href="#toolbox">Toolbox</a><a href="#services">Services</a><a class="hi" href="#contact">Contact</a></nav>
+<button class="tbtn" id="theme" aria-label="Toggle dark mode">◐</button>
+<button class="menu" id="menu" aria-expanded="false" aria-controls="mp" aria-label="Open menu"><span class="bars" aria-hidden="true"><i></i><i></i><i></i></span></button>
+</div></header>
+<nav class="mpanel" id="mp" aria-label="Mobile"><a href="#work">Work <span>→</span></a><a href="#about">About <span>→</span></a><a href="#toolbox">Toolbox <span>→</span></a><a href="#services">Services <span>→</span></a><a href="#contact">Contact <span>→</span></a></nav>
 
-  <header class="site-header">
-    <div class="wrap nav">
-      <a class="brand" href="index.html"><span class="brand-mark">DF</span> DEVFORTUNE</a>
-      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Open menu">
-      <label for="nav-toggle" class="nav-burger" aria-hidden="true"><span></span><span></span><span></span></label>
-      <ul class="nav-links">
-        <li><a href="index.html" aria-current="page">Home</a></li>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="about.html">Biography</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li class="nav-cta"><a class="btn btn-primary" href="contact.html">Start a project</a></li>
-      </ul>
-      <label for="nav-toggle" class="nav-backdrop" aria-hidden="true"></label>
-    </div>
-  </header>
+<main id="home">
+<section class="hero"><div class="wrap">
+<div class="hg">
+<div>
+<p class="meta">Hey, I’m</p>
+<h1>Fortune.<small>Full-Stack Developer, Software Engineer & Cybersecurity Analyst.</small></h1>
+<p class="lede" style="margin-top:0">I turn ideas into functional, secure and scalable digital products. From the first pixel to the backend architecture, I build software that solves real problems.</p>
+<p class="meta" style="margin-top:18px">Uyo, Nigeria · Open to remote opportunities worldwide</p>
+<div class="cta"><a class="btn d" href="#work">Explore my work</a><a class="btn" href="#contact">Let’s talk</a></div>
+</div>
+<div class="pw"><div class="portrait"><img src="images/potrait.jpg" alt="Portrait of Fortune" width="800" height="1000"></div>
+<span class="fl" aria-hidden="true">React</span><span class="fl" aria-hidden="true">TypeScript</span><span class="fl" aria-hidden="true">Python</span><span class="fl" aria-hidden="true">GitHub</span><span class="fl" aria-hidden="true">SQL</span><span class="fl" aria-hidden="true">HTML</span><span class="fl" aria-hidden="true">JavaScript</span><span class="fl" aria-hidden="true">Next.js</span><span class="fl" aria-hidden="true">Node.js</span><span class="fl" aria-hidden="true">Tailwind CSS</span><span class="fl" aria-hidden="true">PostgreSQL</span><span class="fl" aria-hidden="true">Kali Linux</span></div>
+</div>
+<div class="photo" style="margin-top:56px"><img src="images/laptopb.jpg" alt="Fortune working at a laptop" width="1600" height="800"><em>Building, learning, and shipping.</em></div>
+<div class="row">
+<div class="code"><div class="tab">fortune.ts</div><pre><span class="k">const</span> fortune = {
+  role: <span class="s">"software engineer"</span>,
+  focus: [<span class="s">"full-stack"</span>, <span class="s">"AI"</span>, <span class="s">"cybersecurity"</span>],
+  location: <span class="s">"Uyo, Nigeria"</span>,
+  curious: <span class="b">true</span>,
+  available: <span class="b">true</span>,
+  philosophy: <span class="s">"build with purpose"</span>
+};</pre><a data-link="github" href="https://github.com/fortuneiwatt">Find me on GitHub</a></div>
+<div class="card" style="background:var(--blue)"><h3>Let’s connect.</h3><p style="margin-top:10px">Find me online.</p><div class="soc" id="soc"></div></div>
+</div>
+<div class="big"><p class="eyebrow" style="color:var(--ci)">Open to opportunities</p><h2>Building something?<br>Let’s ship it.</h2><p>From the first pixel to the last API, I’m ready to help turn your next idea into a working product.</p><a class="btn d" href="#contact">Start a project</a></div>
+</div></section>
 
-  <main id="main">
-    <!-- HERO -->
-    <section class="hero">
-      <div class="wrap hero-grid">
-        <div>
-          <span class="eyebrow">Fullstack developer &middot; Cybersecurity specialist</span>
-          <h1>I build websites and web apps that work well and are <em>hard to break</em>.</h1>
-          <p class="lead">Hello, I am Fortune, also known as DEVFORTUNE. I help business owners, churches, NGOs and startups get a professional online presence: a site your customers can understand, that loads quickly, and that is built with security in mind from the first line of code.</p>
-          <div class="btn-row">
-            <a class="btn btn-primary" href="projects.html">See my work</a>
-            <a class="btn btn-ghost" href="contact.html">Start a project</a>
-          </div>
-          <div class="hero-badges" aria-label="Core technologies">
-            <span class="badge">React</span><span class="badge">Next.js</span><span class="badge">TypeScript</span><span class="badge">Node.js</span><span class="badge">PostgreSQL</span><span class="badge">Web security</span>
-          </div>
-        </div>
+<section id="about"><div class="wrap"><div class="about card">
+<p class="eyebrow" style="color:var(--ci)">About me</p>
+<div class="ap"><img src="images/portraitb.jpg" alt="Black-and-white portrait of Fortune" width="600" height="600"></div>
+<h2>I’m Fortune.</h2>
+<p>I’m a software engineer based in Uyo, Nigeria, passionate about building useful, reliable and secure digital products.</p>
+<p>I enjoy turning ideas into real applications, from intuitive interfaces to backend systems, databases, APIs and the infrastructure that keeps everything running. My interests span full-stack development, AI-powered applications and cybersecurity.</p>
+<p>Great software should not only work. It should be thoughtful, secure, maintainable and useful to the people who depend on it.</p>
+<div class="cta" style="justify-content:center"><a class="btn d" href="#contact">Let’s build something good</a></div>
+</div></div></section>
 
-        <div class="slideshow" role="group" aria-roledescription="carousel" aria-label="Preview of selected projects">
-          <!-- Slides advance on their own. Use the dots (or arrow keys after tabbing to them) to pick one. -->
-          <input type="radio" name="slide" id="s1" aria-label="Show slide 1: Restaurant ordering website">
-          <input type="radio" name="slide" id="s2" aria-label="Show slide 2: Barbershop booking site">
-          <input type="radio" name="slide" id="s3" aria-label="Show slide 3: Boutique hotel websites">
-          <input type="radio" name="slide" id="s4" aria-label="Show slide 4: Online store with payments">
-          <input type="radio" name="slide" id="s5" aria-label="Show slide 5: Church and community sites">
-          <input type="radio" name="slide" id="s6" aria-label="Show slide 6: Web3 developer toolkit">
-          <div class="frame">
-            <div class="viewport">
-              <figure class="slide s1" role="group" aria-roledescription="slide" aria-label="1 of 6">
-                <div class="slide-img" role="img" aria-label="Restaurant ordering website: African Caribbean Fusion"></div>
-                <figcaption><span class="cap-tag"></span><strong></strong></figcaption>
-              </figure>
-              <figure class="slide s2" role="group" aria-roledescription="slide" aria-label="2 of 6">
-                <div class="slide-img" role="img" aria-label="Barbershop booking site: Razor &amp; Edge"></div>
-                <figcaption><span class="cap-tag"></span><strong></strong></figcaption>
-              </figure>
-              <figure class="slide s3" role="group" aria-roledescription="slide" aria-label="3 of 6">
-                <div class="slide-img" role="img" aria-label="Boutique hotel websites: Serenity Suites and Restwell Suites"></div>
-                <figcaption><span class="cap-tag"></span><strong></strong></figcaption>
-              </figure>
-              <figure class="slide s4" role="group" aria-roledescription="slide" aria-label="4 of 6">
-                <div class="slide-img" role="img" aria-label="Online store with payments: Nigerian e-commerce platform"></div>
-                <figcaption><span class="cap-tag"></span><strong></strong></figcaption>
-              </figure>
-              <figure class="slide s5" role="group" aria-roledescription="slide" aria-label="5 of 6">
-                <div class="slide-img" role="img" aria-label="Church and community sites: Radiant Life Ministry and Ignite Productions"></div>
-                <figcaption><span class="cap-tag"></span><strong></strong></figcaption>
-              </figure>
-              <figure class="slide s6" role="group" aria-roledescription="slide" aria-label="6 of 6">
-                <div class="slide-img" role="img" aria-label="Web3 developer toolkit: Pocket Switch"></div>
-                <figcaption><span class="cap-tag"></span><strong></strong></figcaption>
-              </figure>
-            </div>
-          </div>
-          <div class="dots">
-            <label for="s1" aria-hidden="true"></label>
-            <label for="s2" aria-hidden="true"></label>
-            <label for="s3" aria-hidden="true"></label>
-            <label for="s4" aria-hidden="true"></label>
-            <label for="s5" aria-hidden="true"></label>
-            <label for="s6" aria-hidden="true"></label>
-          </div>
-        </div>
-      </div>
-    </section>
+<section style="padding-top:0"><div class="wrap"><div class="gband">
+<div class="letter"><h2>I build the whole thing. Then I make it better.</h2>
+<p>I like working across the whole software lifecycle: understanding the problem, designing the experience, building APIs, managing databases, implementing security and deploying. The best engineers understand problems, communicate clearly and take responsibility for the systems they build.</p></div>
+<div class="notes"><div class="note">Make it work. Then make it better.</div><div class="note">Security is not an afterthought.</div><div class="note">Stay curious. Always ask why.</div><div class="note">Build for people, not just for technology.</div></div>
+</div></div></section>
 
-    <!-- WHERE TO GO -->
-    <section>
-      <div class="wrap">
-        <div class="section-head">
-          <span class="eyebrow">New here? Start here</span>
-          <h2>Four pages, each with one clear job</h2>
-          <p class="lead">You do not need to read everything. Pick the page that answers the question you came with.</p>
-        </div>
-        <div class="guide stage">
-          <a class="card" href="services.html">
-            <div class="k">Question: what can you do for me?</div>
-            <h3>Services</h3>
-            <p>The kinds of work I take on, what each one includes, and how a project runs from first message to launch.</p>
-            <span class="card-link">View services</span>
-          </a>
-          <a class="card" href="projects.html">
-            <div class="k">Question: have you done this before?</div>
-            <h3>Projects</h3>
-            <p>Real sites and apps I have built, what problem each one solved, and links to the ones that are live.</p>
-            <span class="card-link">View projects</span>
-          </a>
-          <a class="card" href="about.html">
-            <div class="k">Question: who am I hiring?</div>
-            <h3>Biography</h3>
-            <p>My background, how I think about my work, the tools I use daily and what it is like to work with me.</p>
-            <span class="card-link">Read my story</span>
-          </a>
-          <a class="card" href="contact.html">
-            <div class="k">Question: how do we begin?</div>
-            <h3>Contact</h3>
-            <p>The ways to reach me, what to include in your first message, and what happens after you send it.</p>
-            <span class="card-link">Get in touch</span>
-          </a>
-        </div>
-      </div>
-    </section>
+<section id="toolbox"><div class="wrap">
+<p class="eyebrow">The toolbox</p><h2>Everything connects.</h2>
+<p class="lede">The technologies I use are one system: the interface people touch, the backend behind it, the intelligence on top and the infrastructure underneath.</p>
+<div class="mapbox"><div class="mscroll"><svg class="map" id="map" viewBox="0 0 1000 640" role="group" aria-label="Technology map"></svg></div>
+<div class="mhint"><span>Hover to trace · Tap to pin · Swipe the map to explore</span><button class="chip" id="reset">Reset map</button></div></div>
+</div></section>
 
-    <!-- WHY ME -->
-    <section>
-      <div class="wrap">
-        <div class="section-head">
-          <span class="eyebrow">Why work with me</span>
-          <h2>Development and security under one roof</h2>
-          <p class="lead">Most developers build first and think about security later, if at all. I do the opposite, because a site that gets hacked costs far more than one that was built carefully.</p>
-        </div>
-        <div class="grid g3 stage">
-          <article class="card">
-            <div class="card-icon">01</div>
-            <h3>Built to look and feel crafted</h3>
-            <p>Each site is designed around your brand, your audience and your content. No recycled templates, no filler text. Visitors should understand who you are within seconds.</p>
-          </article>
-          <article class="card">
-            <div class="card-icon">02</div>
-            <h3>Security is part of the build</h3>
-            <p>I work with penetration testing tools and web security practices, so login forms, payments and admin areas are protected on purpose, not by luck.</p>
-          </article>
-          <article class="card">
-            <div class="card-icon">03</div>
-            <h3>Made for real customers</h3>
-            <p>Fast on mobile, easy to navigate and connected to the way your customers already talk to you, whether that is WhatsApp, card payments or email.</p>
-          </article>
-        </div>
-      </div>
-    </section>
+<section id="work"><div class="wrap">
+<p class="eyebrow">Selected work</p><h2>Products built for the real world.</h2>
+<p class="lede">Digital products, platforms and experiments that show how I approach engineering problems.</p>
+<div class="pgrid" id="pg"></div>
+</div></section>
 
-    <!-- PROCESS -->
-    <section>
-      <div class="wrap">
-        <div class="section-head">
-          <span class="eyebrow">How a project works</span>
-          <h2>Clear steps, no surprises</h2>
-          <p class="lead">You will always know what stage the work is in and what I need from you next.</p>
-        </div>
-        <div class="steps">
-          <div class="step"><div><h3>We talk about the goal</h3><p>You tell me what the website must achieve: sell products, take bookings, collect donations, or simply build trust. I ask questions until the goal is specific.</p></div></div>
-          <div class="step"><div><h3>I plan the pages and features</h3><p>I send a simple outline of the pages, features and tools involved, so you can approve the direction before any building starts.</p></div></div>
-          <div class="step"><div><h3>I design and build</h3><p>You see working progress, not just promises. You can review it on your own phone and tell me what to change.</p></div></div>
-          <div class="step"><div><h3>I test, secure and launch</h3><p>Before going live I check the site on different devices, test it for common security weaknesses, and connect your domain.</p></div></div>
-        </div>
-      </div>
-    </section>
+<section id="services"><div class="wrap">
+<p class="eyebrow">Services</p><h2>Intelligence with a purpose.</h2>
+<p class="lede">I help turn ideas into working digital products through thoughtful engineering and practical problem-solving.</p>
+<div class="sgrid" id="sg"></div>
+</div></section>
 
-    <!-- FEATURED -->
-    <section>
-      <div class="wrap">
-        <div class="section-head">
-          <span class="eyebrow">Selected work</span>
-          <h2>A few things I have built</h2>
-        </div>
-        <div class="grid g3 stage">
-          <article class="card">
-            <span class="status live">Live</span>
-            <h3>African Caribbean Fusion</h3>
-            <p>A restaurant website with an online menu, cart, card checkout and an admin area where the owner can mark the kitchen open or closed.</p>
-            <div class="tag-row"><span class="tag">React</span><span class="tag">TypeScript</span><span class="tag">Express</span><span class="tag">Stripe</span></div>
-          </article>
-          <article class="card">
-            <span class="status live">Live</span>
-            <h3>Razor &amp; Edge</h3>
-            <p>A premium barbershop site for a Lagos brand, where clients can book an appointment straight through WhatsApp.</p>
-            <div class="tag-row"><span class="tag">React</span><span class="tag">Tailwind</span><span class="tag">WhatsApp</span></div>
-          </article>
-          <article class="card">
-            <span class="status done">Hackathon</span>
-            <h3>Pocket Switch</h3>
-            <p>A toolkit that helps blockchain developers move their apps from centralized providers to Pocket Network, with support for 62 chains.</p>
-            <div class="tag-row"><span class="tag">Next.js</span><span class="tag">TypeScript</span><span class="tag">Web3</span></div>
-          </article>
-        </div>
-        <p style="margin-top:2rem"><a class="card-link" href="projects.html">See all projects</a></p>
-      </div>
-    </section>
+<section id="contact"><div class="wrap"><div class="contact">
+<p class="eyebrow" style="color:var(--ci)">Let’s build something</p>
+<h2>What are you building?</h2>
+<p>Whether you’re building a startup, improving a product, or hiring a software engineer, let’s start a conversation.</p>
+<div class="soc" id="soc2"></div>
+<p style="margin-top:22px;font-weight:700">Uyo, Nigeria · Remote worldwide</p>
+</div></div></section>
+</main>
 
-    <!-- CTA -->
-    <section>
-      <div class="wrap">
-        <div class="cta">
-          <h2>Have a project in mind?</h2>
-          <p>Send me a short message about what you need. I will reply with honest advice on the best way to build it, even if the answer is a smaller project than you expected.</p>
-          <div class="btn-row">
-            <a class="btn btn-primary" href="contact.html">Contact me</a>
-            <a class="btn btn-ghost" href="about.html">Read my biography first</a>
-          </div>
-        </div>
-      </div>
-    </section>
-  </main>
+<footer><div class="wrap"><div><div class="big2">Fortune.</div><small>Building useful things. Learning every day.<br>Full-Stack Developer · Software Engineer · Cybersecurity Analyst<br>© 2026 Fortune. Built with curiosity and care.</small></div>
+<nav><a href="#work">Work</a><a href="#about">About</a><a href="#toolbox">Toolbox</a><a href="#services">Services</a><a href="#contact">Contact</a></nav></div></footer>
 
-  <footer class="site-footer">
-    <div class="wrap">
-      <div class="foot-grid">
-        <div>
-          <a class="brand" href="index.html"><span class="brand-mark">DF</span> DEVFORTUNE</a>
-          <p class="muted" style="margin-top:1rem;max-width:36ch">Freelance fullstack developer and cybersecurity specialist, based in Nigeria and working with clients anywhere.</p>
-        </div>
-        <div>
-          <h4>Pages</h4>
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="about.html">Biography</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </div>
-        <div>
-          <h4>Reach me</h4>
-          <ul>
-            <li><a href="mailto:iwattfortune5@gmail.com">iwattfortune5@gmail.com</a></li>
-            <li><a href="contact.html">Contact page</a></li>
-          </ul>
-        </div>
-      </div>
-      <p class="copy">&copy; 2026 DEVFORTUNE.</p>
-    </div>
-  </footer>
+<script src="js/main.js" defer></script>
 </body>
 </html>
