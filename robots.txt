@@ -1,0 +1,24 @@
+# Fortune portfolio: crawler rules
+User-agent: *
+Allow: /
+
+# ChatGPT Search (lets your site appear in ChatGPT search answers)
+User-agent: OAI-SearchBot
+Allow: /
+
+# ChatGPT when a user asks it to visit a page
+User-agent: ChatGPT-User
+Allow: /
+
+# Other AI search crawlers
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+# GPTBot is used to train OpenAI models, not for search. To opt out of training only, change to: Disallow: /
+User-agent: GPTBot
+Allow: /
+
+Sitemap: https://devfortuneportfolio.vercel.app/sitemap.xml
