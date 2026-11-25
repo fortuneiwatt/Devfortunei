@@ -1,4 +1,4 @@
-# Fortune portfolio: crawler rules
+# Fortune Iwatt portfolio: crawler rules
 User-agent: *
 Allow: /
 
